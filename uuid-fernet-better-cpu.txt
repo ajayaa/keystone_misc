@@ -1,0 +1,36 @@
+uuid stats
+==========
+
+token creation
+--------------
+Number of requests: 100, avg time: 73 ms, 99% time: 93 ms
+Number of requests: 1000, avg time: 75 ms, 99% time: 108 ms
+Number of requests: 10000, avg time: 74.86 ms, 99% time: 104.65 ms
+
+token validation
+----------------
+Number of requests: 100, avg time: 18 ms, 99% time: 21 ms
+Number of requests: 1000, avg time: 17 ms, 99% time: 22 ms
+Number of requests: 10000, avg time: 18 ms, 99% time: 25 ms
+
+fernet stats
+============
+
+token_creation
+--------------
+Number of requests: 100, avg time: 65 ms, 99% time: 75 ms
+Number of requests: 1000, avg time: 64 ms, 99% time: 73 ms
+Number of requests: 10000, avg time: 63 ms, 99% time: 78 ms
+
+token validation
+----------------
+Number of requests: 100, avg time: 42 ms, 99% time: 65 ms
+Number of requests: 1000, avg time: 42 ms, 99% time: 54 ms
+Number of requests: 10000, avg time: 43 ms, 99% time: 57 ms
+
+
+token validation after 100 token revocation
+-------------------------------------------
+Number of requests: 100, avg time: 47 ms, 99% time: 63 ms
+Number of requests: 1000, avg time: 49 ms, 99% time: 93 ms
+Number of requests: 10000, avg time: 48 ms, 99% time: 92 ms
